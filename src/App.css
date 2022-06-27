@@ -15,11 +15,24 @@ main {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .dice-container {
     display: grid;
     grid-template: auto auto / repeat(5,1fr);
     gap: 40px;
+}
+.roll-dice {
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+    background-color: #5035FF;
+    color:white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.roll-dice:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
