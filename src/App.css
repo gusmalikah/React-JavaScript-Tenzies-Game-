@@ -22,10 +22,11 @@ main {
     display: grid;
     grid-template: auto auto / repeat(5,1fr);
     gap: 40px;
+    margin-bottom: 40px;
 }
 .roll-dice {
     height: 50px;
-    width: 100px;
+    width: 150px;
     border: none;
     border-radius: 6px;
     background-color: #5035FF;
@@ -35,4 +36,14 @@ main {
 }
 .roll-dice:active {
     box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+.title {
+    font-size: 50px;
+    margin: 0;
+}
+.instructions {
+    font-weight: 400;
+    margin-top: 0;
+    padding: 20;
+    text-align: center;
 }
