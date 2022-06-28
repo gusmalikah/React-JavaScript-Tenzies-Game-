@@ -59,8 +59,9 @@ import Confetti from "react-confetti"
     ))
    
     return(
+      <div>
+        {tenzies && <Confetti />}
         <main>
-          {tenzies && <Confetti />}
           <h1 className="title">Tenzies</h1>
           <p className="instructions">Roll until all dice are the same.
            Click each die to freeze it at its current value between rolls.</p>
@@ -70,6 +71,7 @@ import Confetti from "react-confetti"
           <button className="roll-dice" 
           onClick={rollDice}>{tenzies ? "New Game": "Roll"}</button>
         </main>
+        </div>
     )
 }
 export default App

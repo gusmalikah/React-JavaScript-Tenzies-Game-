@@ -1,3 +1,6 @@
+# React-JavaScript(Tenzies-Game)
+This project is created in ReactJs library with JavaScript, Html amd CSS. This project is based on the game Tenzies which enables the use to roll dices and to save the dices which they want by clicking on them. If the user manages to win the game the user has the optio to start the new game with the click of a button.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
